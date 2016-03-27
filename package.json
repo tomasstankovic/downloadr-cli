@@ -1,0 +1,43 @@
+{
+  "name": "downloadr-cli",
+  "version": "0.1.0",
+  "description": "CLI single / multiple data downloader.",
+  "license": "MIT",
+  "repository": "slinto/downloadr-cli",
+  "author": {
+    "name": "Tomáš Stankovič (slinto)",
+    "email": "hello@slinto.sk",
+    "url": "slinto.sk"
+  },
+  "bin": {
+    "downloadr": "cli.js"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli",
+    "cli-app",
+    "downloadr",
+    "downloader",
+    "files"
+  ],
+  "dependencies": {
+    "log-symbols": "^1.0.2",
+    "meow": "^3.4.2",
+    "mkpath": "^1.0.0",
+    "request": "^2.69.0",
+    "request-progress": "^2.0.1"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "execa": "^0.2.2",
+    "xo": "*"
+  }
+}
