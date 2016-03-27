@@ -13,7 +13,7 @@
     "downloadr": "cli.js"
   },
   "engines": {
-    "node": ">=0.10"
+    "node": ">=4.0"
   },
   "scripts": {
     "test": "xo && ava"
