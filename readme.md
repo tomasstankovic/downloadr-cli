@@ -2,13 +2,11 @@
 
 > CLI single / multiple data downloader.
 
-
 ## Install
 
 ```
-$ npm install --save downloadr-cli
+$ npm install --global downloadr-cli
 ```
-
 
 ## Usage
 
@@ -32,7 +30,6 @@ $ downloadr --help
     Multiple download: (eg. files http://url.com/files/filename-0.pdf to http://url.com/files/filename-10.pdf)
       $ downloadr http://url.com/files/filename- --from 0 --to 10 --type jpg --dest mydir
 ```
-
 
 ## License
 
